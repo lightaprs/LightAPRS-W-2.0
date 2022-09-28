@@ -31,7 +31,7 @@ LightAPRS-W 2.0 will be available on http://shop.qrp-labs.com/aprs/ for order so
 - **Input Voltage** : 2.7 (min) - 16 (max) Volt via USB or VBat pin (Buck-Boost regulator with power good)
 - **BOD** : N/A
 - **Sensor** : BMP180 (pressure and temperature)
-- **VHF Radio Module** : Si4463
+- **VHF Radio Module** : Si4463 (included)
 - **VHF Radio Operating Frequency** : 144-146 MHz (configurable by code)
 - **VHF Low Pass Filter** : Available (7 elements)
 - **VHF Radio Power**  : 100 mW (max) (configurable by software)
