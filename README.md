@@ -112,5 +112,5 @@ If you have any questions or need support, please contact support@lightaprs.com
 
 ### Wiki
 
-* **F.A.Q.**
-* **Tips & Tricks for Pico Balloons**
+* **[F.A.Q.](https://github.com/lightaprs/LightAPRS-W-2.0/wiki/F.A.Q.)**
+* **[Tips & Tricks for Pico Balloons](https://github.com/lightaprs/LightAPRS-W-2.0/wiki/Tips-&-Tricks-for-Pico-Balloons)**
