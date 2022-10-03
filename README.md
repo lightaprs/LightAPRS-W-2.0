@@ -10,7 +10,7 @@ Because LightAPRS W-2.0 is open source you can add your own custom sensors via I
 
 <img src="images/light-aprs-w-comparison-table.png" width="800">
 
-LightAPRS-W 2.0 will be available on http://shop.qrp-labs.com/aprs/ for order soon. If you don't need WSPR, than check out APRS only tracker [LightAPRS](https://github.com/lightaprs/LightAPRS-1.0) or LoRa/LoRaWAN only tracker [LightTracker](https://github.com/lightaprs/LightTracker-1.0).
+LightAPRS-W 2.0 is available on http://shop.qrp-labs.com/aprs/lightaprsw2 for order. If you don't need WSPR, than check out APRS only tracker [LightAPRS](https://github.com/lightaprs/LightAPRS-1.0) or LoRa/LoRaWAN only tracker [LightTracker](https://github.com/lightaprs/LightTracker-1.0).
 
 <img src="images/lightaprs-w-2-0-pinout.png" width="600">
 
