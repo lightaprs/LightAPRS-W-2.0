@@ -53,7 +53,7 @@ int32_t APRS_Freq_Correction          = -1200;     //Hz. vctcxo frequency correc
 
 //*****************************************************************************
 
-uint16_t  BeaconWait=50;  //seconds sleep for next beacon (HF or VHF). This is optimized value, do not change this if possible.
+uint16_t  BeaconWait=50;  //seconds sleep for next beacon (HF or VHF). This is an optimized value, do not change this if possible.
 uint16_t  BattWait=60;    //seconds sleep if super capacitors/batteries are below BattMin (important if power source is solar panel) 
 float     BattMin=3.3;    // min Volts to wake up.
 float     GpsMinVolt=4.5; //min Volts for GPS to wake up. (important if power source is solar panel) 
@@ -200,7 +200,6 @@ void setup() {
   Watchdog.reset(); 
 
   SerialUSB.println(F("Starting"));
-
 
   APRS_init();
   APRS_setCallsign(CallSign, CallNumber);
@@ -472,11 +471,14 @@ void updateTelemetry() {
   telemetry_buff[20] = 'T';
   telemetry_buff[21] = 'x';
   telemetry_buff[22] = 'C';
+  Si5351ON;//little hack to prevent a BMP180 related issue 
+  delay(1);
   telemetry_buff[23] = ' '; float tempC = bmp.readTemperature();
   dtostrf(tempC, 6, 2, telemetry_buff + 24);
   telemetry_buff[30] = 'C';
   telemetry_buff[31] = ' '; float pressure = bmp.readPressure() / 100.0; //Pa to hPa
   dtostrf(pressure, 7, 2, telemetry_buff + 32);
+  Si5351OFF; 
   telemetry_buff[39] = 'h';
   telemetry_buff[40] = 'P';
   telemetry_buff[41] = 'a';
