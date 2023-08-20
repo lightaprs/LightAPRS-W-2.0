@@ -8,7 +8,7 @@ Because LightAPRS W-2.0 is open source you can add your own custom sensors via I
 
 **LightAPRS-W 2.0** is upgraded (smaller, lighter, powerful but power consumption is lower) version of [LightAPRS-W 1.0](https://github.com/lightaprs/LightAPRS-W-1.0). We don't use Dorji DRA818V radio module for VHF (APRS) any more and developed our own VHF radio module and that made LightAPRS-W-2.0 smaller and lighter. DRA818V radio module was very powerful (1 Watt) but actually pico balloon trackers do not need 1 Watt since it draws so much power. Our new VHF Radio module for APRS (based on Si4463) is 100 mWatt and more convenient for airborne projects since power consumption is much much lower.
 
-<img src="images/light-aprs-w-comparison-table.png" width="800">
+<img src="images/light-aprs-w-comparison-table2.png" width="800">
 
 LightAPRS-W 2.0 is available on http://shop.qrp-labs.com/aprs/lightaprsw2 for order. If you don't need WSPR, than check out APRS only tracker [LightAPRS](https://github.com/lightaprs/LightAPRS-1.0) or LoRa/LoRaWAN only tracker [LightTracker](https://github.com/lightaprs/LightTracker-1.0).
 
@@ -28,7 +28,7 @@ LightAPRS-W 2.0 is available on http://shop.qrp-labs.com/aprs/lightaprsw2 for or
 - **EEPROM** : N/A
 - **Operating Frequency** : 48 Mhz
 - **Operating Voltage** : 3.3 Volt
-- **Input Voltage** : 2.7 (min) - 16 (max) Volt via USB or VBat pin (Buck-Boost regulator with power good)
+- **Input Voltage** : 2.7 (min) - 6 (max) Volt via USB or VBat pin (Buck-Boost regulator with power good)
 - **BOD** : N/A
 - **Sensor** : BMP180 (pressure and temperature)
 - **VHF Radio Module** : Si4463 (included)
