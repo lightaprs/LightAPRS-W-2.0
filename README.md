@@ -28,7 +28,7 @@ LightAPRS-W 2.0 is available on http://shop.qrp-labs.com/aprs/lightaprsw2 for or
 - **EEPROM** : N/A
 - **Operating Frequency** : 48 Mhz
 - **Operating Voltage** : 3.3 Volt
-- **Input Voltage** : 2.7 (min) - 16 (max) Volt via USB or VBat pin (Buck-Boost regulator with power good)
+- **Input Voltage** : 2.7 (min) - 6 (max) Volt via USB or VBat pin (Buck-Boost regulator with power good)
 - **BOD** : N/A
 - **Sensor** : BMP180 (pressure and temperature)
 - **VHF Radio Module** : Si4463 (included)
